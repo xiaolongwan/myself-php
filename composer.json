@@ -1,0 +1,21 @@
+{
+    "name": "myself-php/myself-php",
+    "description": "我的第一个包",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "982908699",
+            "email": "982908699@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdminLogin\\Login": "src/AdminLogin/Login"
+        }
+    }
+}
