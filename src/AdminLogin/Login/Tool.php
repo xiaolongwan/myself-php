@@ -8,6 +8,6 @@ Class Tool {
     {
     }
     public static function Hello(){
-        echo 'Hello Worldhahaha';
+        echo 'Hello Worldhahahadddfddgfgdgdfgdg';
     }
 }
