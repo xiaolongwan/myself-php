@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Controller;
+namespace AdminLogin\Login;
 
 require_once 'aop/AopCertClient.php';
 require_once 'aop/request/AlipayTradeAppPayRequest.php';

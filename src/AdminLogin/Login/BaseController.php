@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Controller;
+namespace AdminLogin\Login;
 
 
 class BaseController
