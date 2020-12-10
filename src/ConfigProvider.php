@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace AdminLogin\Login;
+namespace Config\Src;
 
 class ConfigProvider
 {
@@ -31,9 +31,21 @@ class ConfigProvider
             'publish' => [
                 [
                     'id' => 'config',
-                    'description' => 'The config for hyperf assembly',
+                    'description' => 'The config for pay',
                     'source' => __DIR__ . '/../../publish/pay.php',
                     'destination' => BASE_PATH . '/config/autoload/pay.php',
+                ],
+                [
+                    'id' => 'config',
+                    'description' => 'The config for pushMessage',
+                    'source' => __DIR__ . '/../../publish/pushMessage.php',
+                    'destination' => BASE_PATH . '/config/autoload/pushMessage.php',
+                ],
+                [
+                    'id' => 'config',
+                    'description' => 'The config for live',
+                    'source' => __DIR__ . '/../../publish/live.php',
+                    'destination' => BASE_PATH . '/config/autoload/live.php',
                 ],
             ],
         ];

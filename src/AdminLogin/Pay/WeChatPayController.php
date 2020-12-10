@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AdminLogin\Login;
+namespace AdminLogin\Pay;
 
 class WeChatPayController extends BaseController
 {

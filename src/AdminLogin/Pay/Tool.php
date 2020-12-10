@@ -1,6 +1,6 @@
 <?php
 
-namespace AdminLogin\Login;
+namespace AdminLogin\Pay;
 
 Class Tool {
 

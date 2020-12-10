@@ -15,12 +15,15 @@
     },
     "autoload": {
         "psr-4": {
-            "AdminLogin\\Login\\": "src/AdminLogin/Login"
+            "Config\\Src": "src",
+            "AdminLogin\\Pay\\": "src/AdminLogin/Pay",
+            "AdminLogin\\Live\\": "src/AdminLogin/Live",
+            "AdminLogin\\PushMessage\\": "src/AdminLogin/PushMessage"
         }
     },
     "extra": {
         "hyperf": {
-            "config": "AdminLogin\\Login\\ConfigProvider"
+            "config": "Config\\Src\\ConfigProvider"
         }
     }
 }
