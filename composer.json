@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Config\\Src": "src",
+            "Config\\Src\\": "src",
             "AdminLogin\\Pay\\": "src/AdminLogin/Pay",
             "AdminLogin\\Live\\": "src/AdminLogin/Live",
             "AdminLogin\\PushMessage\\": "src/AdminLogin/PushMessage"
