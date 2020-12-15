@@ -44,7 +44,7 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config for live',
-                    'source' => __DIR__ . '/../../publish/live.php',
+                    'source' => __DIR__ . '/publish/live.php',
                     'destination' => BASE_PATH . '/config/autoload/live.php',
                 ],
             ],
