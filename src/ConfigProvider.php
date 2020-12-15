@@ -32,13 +32,13 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config for pay',
-                    'source' => __DIR__ . '/../../publish/pay.php',
+                    'source' => __DIR__ . '/publish/pay.php',
                     'destination' => BASE_PATH . '/config/autoload/pay.php',
                 ],
                 [
                     'id' => 'config',
                     'description' => 'The config for pushMessage',
-                    'source' => __DIR__ . '/../../publish/pushMessage.php',
+                    'source' => __DIR__ . '/publish/pushMessage.php',
                     'destination' => BASE_PATH . '/config/autoload/pushMessage.php',
                 ],
                 [

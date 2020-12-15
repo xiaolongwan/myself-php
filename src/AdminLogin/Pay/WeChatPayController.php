@@ -30,7 +30,7 @@ class WeChatPayController extends BaseController
         $this->notify_url=config('pay.WeChatPay.WxPay.notify_url')??$par['notify_url'];
         $this->out_trade_no=$par['out_trade_no'];
         $this->total_fee=($par['total_fee']??$par['amount'])*100;//支付参数 total_fee  打钱参数amount
-        $this->attach=json_encode($par['attach']);
+        $this->attach=$par['attach']?json_encode($par['attach']):'';
         $this->spbill_create_ip=$this->createIp();
         $this->nonce_str=md5(time() . mt_rand(0, 1000));
         $this->trade_type=$par['trade_type'];//微信支付类型  MWEB，APP，JSAPI
